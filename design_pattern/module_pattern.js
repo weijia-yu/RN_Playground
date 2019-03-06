@@ -11,3 +11,15 @@ var jeep = {
 }
 
 jeep.toString();
+
+var fridge = (function() {
+    var brand = "sumsung";
+    return {
+        toString: function() {
+            console.log(this)
+            console.log(brand);
+        }
+    }
+})();
+
+fridge.toString();
